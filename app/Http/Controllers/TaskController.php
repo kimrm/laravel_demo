@@ -23,7 +23,7 @@ class TaskController extends Controller
      */
     public function create(): Response
     {
-        throw new \Exception('Not implemented');
+        abort(501, 'Not implemented.');
     }
 
     /**
