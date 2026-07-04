@@ -31,7 +31,7 @@ class TaskController extends Controller
      */
     public function store(Request $request): Response
     {
-        throw new \Exception('Not implemented');
+        abort(501, 'Not implemented.');
     }
 
     /**
