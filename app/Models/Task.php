@@ -18,6 +18,7 @@ use Illuminate\Support\Carbon;
 #[Fillable(['title', 'description', 'completed'])]
 class Task extends Model
 {
+    /** @use HasFactory<\Database\Factories\TaskFactory> */
     use HasFactory;
 
     /**
