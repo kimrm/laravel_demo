@@ -39,7 +39,7 @@ class TaskController extends Controller
      */
     public function show(Task $task): Response
     {
-        throw new \Exception('Not implemented');    
+        abort(501, 'Not implemented.');
     }
 
     /**
